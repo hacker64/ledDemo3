@@ -3,7 +3,7 @@ ledDemo3
 
 Simple Script Program Showing Jade Robot's Green LEDs flashing in sequence.
 
-This is the absolute best application for the Jade Robot! Woohoo
+This is the absolute best application for the Jade Robot! Woohoo!
 
 - Uses the "setled" syscall API for Specifying the action of a specific LED.
 
