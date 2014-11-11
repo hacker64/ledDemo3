@@ -32,6 +32,6 @@ str                         LEDString[6];
     LEDString[5] = "5-f";
 
     for (i = 0; "udlre" == syscall(getbutton, ""); i = (i + 1) % 6) {
-        syscall(delay, "2000");
+        syscall(delay, "6000");
         syscall(setled, LEDString[i]);
     }
